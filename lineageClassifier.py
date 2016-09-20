@@ -45,7 +45,7 @@ alnIN = args.inputFile
 def make_dict():
     d = {}
     """for every diagnostic snp, record alt allele and lineage"""
-    with open("/home/oneill/scripts/MtbLineageClassifier/Coll2014_diagnostic.csv", 'r') as infile:
+    with open("/home/oneill/scripts/MtbLineageClassifier/Coll2014_LinSpeSNPs_final.csv", 'r') as infile:
         for i, line in enumerate(infile):
             line = line.strip().split("\t")
             if i > 0:
