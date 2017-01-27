@@ -32,7 +32,7 @@ def is_file(filename):
 def get_arguments(): 
     """Parse command line arguments"""
     parser = argparse.ArgumentParser(
-        description="Quantify missing data per strain from an alignment")
+        description="Lineage Assignment")
     input_file = parser.add_mutually_exclusive_group(required=True)
     input_file.add_argument('-i', '--inputFile',
         help ='alignment in fasta format', 
