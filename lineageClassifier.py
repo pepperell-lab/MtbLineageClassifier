@@ -10,8 +10,8 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 ####################################################################
-##This script takes an alignment (fasta)  and generates a histogram  
-##and a file with the amount of missing sites (denoted by "-").
+##This script takes an alignment (fasta)  and outputs the most   
+##likely lineage of M.tb.
 ####################################################################
 
 
